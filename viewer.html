@@ -20,7 +20,7 @@
     <div class="container">
         <h1>📊 عارض نتائج تتبع السيارات بنظام الذاكرة (YOLO + DINOv2)</h1>
         <p>تحريك الشريط أدناه لتصفح الفريمات المعالجة وتتبع ثبات الـ IDs والـ Re-ID</p>
-        
+
         <div class="stats">
             <div>إجمالي الفريمات: <span id="total-frames">89</span></div>
             <div>السيارات المكتشفة: <span id="car-count">3</span></div>
@@ -28,7 +28,7 @@
         </div>
 
         <img id="viewer-img" class="img-box" src="output_frames/annotated_frame_0001.jpg" alt="Frame View">
-        
+
         <div class="controls">
             <button onclick="prevFrame()">◀ السابق</button>
             <input type="range" id="slider" min="1" max="89" value="1" oninput="updateFrame(this.value)">
@@ -39,7 +39,7 @@
     <script>
         const total = 89;
         let current = 1;
-        
+
         function updateFrame(val) {
             current = parseInt(val);
             document.getElementById('slider').value = current;
@@ -47,11 +47,11 @@
             const pad = String(current).padStart(4, '0');
             document.getElementById('viewer-img').src = `output_frames/annotated_frame_${pad}.jpg`;
         }
-        
+
         function prevFrame() {
             if (current > 1) updateFrame(current - 1);
         }
-        
+
         function nextFrame() {
             if (current < total) updateFrame(current + 1);
         }
