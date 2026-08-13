@@ -13,13 +13,13 @@ Delivered by: [SDAIA Academy](https://github.com/SDAIAAcademy)
 ---
 
 ## 📌 Project Overview
-This end-to-end computer vision project provides a real-world solution for highway traffic monitoring. It utilizes state-of-the-art YOLO models to detect, track, segment, count, and estimate the speed of vehicles (Cars, Buses, Trucks) on a highway video stream.
+This computer vision project provides a real-world solution for highway traffic monitoring. It utilizes state-of-the-art YOLO models to detect, track, segment, count, and estimate the speed of vehicles (Cars, Buses, Trucks) on a highway video stream.
 
 The project demonstrates a complete AI pipeline from custom dataset training and model evaluation to real-world video analytics and optimized deployment exporting.
 
 ---
 
-## ✨ Key Features & Deliverables (Capstone Rubric)
+## ✨ Key Features
 
 1. **Core Vision Tasks (Instance Segmentation)**
    - Utilizes `yolov8n-seg.pt` to perform precise instance segmentation on vehicles, capturing exact vehicle masks rather than standard bounding boxes.
@@ -31,7 +31,7 @@ The project demonstrates a complete AI pipeline from custom dataset training and
    - Performs a validation run (`model.val()`) on a real vehicle dataset.
    - Extracts and interprets key metrics (mAP50, mAP50-95, Precision, Recall) to understand model performance and thresholds.
 4. **Custom Training (Fine-Tuning)**
-   - Includes a custom training pipeline (`model.train()`) fine-tuning a YOLOv8 model on a real-world vehicle dataset sourced from Roboflow.
+   - Includes a custom training pipeline (`model.train()`) fine-tuning a YOLOv26 model on a real-world vehicle dataset sourced from Roboflow.
 5. **Deployment & Export**
    - Exports the trained model to the highly optimized **ONNX** format (`model.export(format='onnx')`) for fast, cross-platform inference.
 
