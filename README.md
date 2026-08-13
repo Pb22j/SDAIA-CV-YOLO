@@ -58,6 +58,10 @@ CarSegmention
 ### -Speed Est 
 <img height="500" src="Docs/speedEst.png" alt="GUI" />
 
+## Part 3: Model Evalution 
+### -
+<img height="500" src="Docs/modelEval.png" alt="GUI" />
+
 ## Part 4-5: Custom Data & Training and Deployment and Export  
 ### -Test The model Before Deployment and After
 <img height="500" src="Docs/modelBeforeDepAndAfter.png" alt="GUI" />
