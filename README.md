@@ -48,7 +48,8 @@ apt-get install ffmpeg
 ```
 ## Part 1: Core Vision Task & inference
 ### -Cars Tracking And Segmention
-Car Tracking
+### -Car Tracking:
+
 <img height="500" src="Docs/trackVechiles.png" alt="GUI" />
 
 -CarSegmention:
@@ -61,9 +62,11 @@ Car Tracking
 <img height="500" src="Docs/speedEst.png" alt="GUI" />
 
 ## Part 3: Model Evalution 
-### -
+### - Model Evalution:
+
 <img height="500" src="Docs/modelEval.png" alt="GUI" />
 
 ## Part 4-5: Custom Data & Training and Deployment and Export  
-### -Test The model Before Deployment and After
+### -Test The model Before Deployment and After:
+
 <img height="500" src="Docs/modelBeforeDepAndAfter.png" alt="GUI" />
