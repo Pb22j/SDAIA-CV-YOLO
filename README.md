@@ -51,11 +51,13 @@ apt-get install ffmpeg
 Car Tracking
 <img height="500" src="Docs/trackVechiles.png" alt="GUI" />
 
-CarSegmention
+-CarSegmention:
+
 <img height="500" src="Docs/TrackAndCountVechilesSeg.png" alt="GUI" />
 
 ## Part 2: Real World Solution and Video Analysis 
-### -Speed Est 
+### -Speed Est:
+
 <img height="500" src="Docs/speedEst.png" alt="GUI" />
 
 ## Part 3: Model Evalution 
