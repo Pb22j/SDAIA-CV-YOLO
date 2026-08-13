@@ -45,3 +45,6 @@ To run this project, you need a Python environment (Google Colab is highly recom
 ```bash
 pip install ultralytics opencv-python-headless pillow pandas
 apt-get install ffmpeg
+```
+### Part 1 Core Vision Task & inference
+<img height="500" src=".Docs/trackVechiles.png" alt="GUI" />
