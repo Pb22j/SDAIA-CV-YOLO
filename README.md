@@ -46,5 +46,18 @@ To run this project, you need a Python environment (Google Colab is highly recom
 pip install ultralytics opencv-python-headless pillow pandas
 apt-get install ffmpeg
 ```
-### Part 1 Core Vision Task & inference
-<img height="500" src=".Docs/trackVechiles.png" alt="GUI" />
+## Part 1: Core Vision Task & inference
+### -Cars Tracking And Segmention
+Car Tracking
+<img height="500" src="Docs/trackVechiles.png" alt="GUI" />
+
+CarSegmention
+<img height="500" src="Docs/TrackAndCountVechilesSeg.png" alt="GUI" />
+
+## Part 2: Real World Solution and Video Analysis 
+### -Speed Est 
+<img height="500" src="Docs/speedEst.png" alt="GUI" />
+
+## Part 4-5: Custom Data & Training and Deployment and Export  
+### -Test The model Before Deployment and After
+<img height="500" src="Docs/modelBeforeDepAndAfter.png" alt="GUI" />
