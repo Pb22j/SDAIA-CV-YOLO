@@ -8,7 +8,7 @@
 This project was developed as the final capstone project for the **Computer Vision for Developers with Ultralytics** training program (August 2026).  
 Delivered by: [SDAIA Academy](https://github.com/SDAIAAcademy)
 
-**Developer:** Mohammed Ahmed Al-Wanees (محمد أحمد الونيس)
+**Developer:** Mohammed Ahmed Al-Wanis (محمد أحمد الونيس)
 
 ---
 
