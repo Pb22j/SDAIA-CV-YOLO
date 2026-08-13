@@ -1,4 +1,4 @@
-# 🚗 Smart Traffic & Car Analytics System
+# Smart Traffic & Car Analytics System
 
 ![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv8-blue)
 ![Python](https://img.shields.io/badge/Python-3.10-yellow)
